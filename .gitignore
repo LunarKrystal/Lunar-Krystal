@@ -1,8 +1,1 @@
-modules/commands/noprefix/timejoinbox/
-node_modules
-includes/antists.sqlite
-modules/commands/checktt/
-package-lock.json
-modules/commands/cache/data/keys.json
-modules/commands/cache/data/taixiu/
-appstate.json
+

@@ -143,7 +143,7 @@ module.exports.run = async ({ event: e, api, handleReply, Currencies }) => {
             seconds = Math.floor((time % 60)),
             minutes = Math.floor((time / 60) % 60),
             hours = Math.floor((time / (60 * 60)) % 24);
-        return api.sendMessage(`💫 Lồn thì thâm như cái dái chó rồi còn địt nhiều vậy, chờ ${hours} giờ ${minutes} phút ${seconds} giây nữa để làm tiếp nhé. Còn không muốn chờ thì liên hệ Admin để làm trực tiếp nhé :))`, e.threadID, e.messageID);
+        return api.sendMessage(`💫 Lồn thì thâm như cái dái chó rồi còn địt nhiều vậy, chờ ${hours} giờ ${minutes} phút ${seconds} giây nữa để làm tiếp nhé. Còn không muốn chờ thì liên hệ Admin để làm trực tiếp nhé :)) FB: https://www.facebook.com/SpeedTunnel/`, e.threadID, e.messageID);
     } else {
         var msg = {
             body: "====== CAVE ======" + `\n` +

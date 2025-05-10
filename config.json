@@ -14,20 +14,20 @@
     "eventDisabled": [],
     "autoClean": true,
     "ACCESSTOKEN": "",
-    "BOTNAME": "Krystal [BETA]",
-    "AMDIN_NAME": "Điền tên bạn vào đây",
-    "FACEBOOK_ADMIN": "https://www.facebook.com/100018277053087",
-    "PREFIX": "/",
+    "BOTNAME": "Yuz",
+    "AMDIN_NAME": "Trâm Anh",
+    "FACEBOOK_ADMIN": "https://www.facebook.com/SpeedTunnel/",
+    "PREFIX": ".",
     "LOGIN": {
         "EMAIL": "",
         "PASSWORD": "",
         "OTPKEY": ""
     },
     "ADMINBOT": [
-        "100018277053087"
+        "61568443432899"
     ],
     "NDH": [
-        "100018277053087"
+        "61568443432899"
     ],
     "DATABASE": {
         "sqlite": {
