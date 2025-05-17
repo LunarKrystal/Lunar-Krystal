@@ -101,4 +101,4 @@ handleSchedule.exectuteError=Đã xảy ra lỗi trong lúc schedule tại modul
 
 # utils/index.js
 
-utils.throwError= » Dùng lệnh sai rồi bạn ơi vui lòng sử dụng %1help %2 để biết thêm hướng dẫn sử dụng bot.\nNếu bạn thấy khó hiểu quá vui lòng liên hệ ADMIN qua:FB:https://www.facebook.com/100018277053087.\nXin cảm ơn!
+utils.throwError= » Dùng lệnh sai rồi bạn ơi vui lòng sử dụng %1help %2 để biết thêm hướng dẫn sử dụng bot.\nNếu bạn thấy khó hiểu quá vui lòng liên hệ ADMIN qua:FB:https://www.facebook.com/SpeedTunnel/\nXin cảm ơn!
