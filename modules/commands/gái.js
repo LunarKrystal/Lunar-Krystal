@@ -1,5 +1,5 @@
 module.exports.config = {
-  name: "gái",	
+  name: "anhgái",	
   version: "4.0.0", 
   hasPermssion: 0,
   credits: "Vtuan",

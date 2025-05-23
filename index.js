@@ -16,7 +16,7 @@ const app = express();
 
 // Define a route
 app.get('/', (request, response) => {
-    const result = `Nhớ ib Facebook Lương Trường Khôi để cập nhật file nha (free) Facebook: https://www.facebook.com/LunarKrystal.Dev`;
+    const result = `Nhớ ib Facebook Trâm Anh để cập nhật file nha (free) Facebook: https://www.facebook.com/SpeedTunnel/`;
     response.send(result);
 });
 // Start the server
@@ -50,5 +50,5 @@ function startBot(message) {
 };
 
 console.log(chalk.yellow(figlet.textSync('KRYSTAL', { horizontalLayout: 'full' })));
-console.log(chalk.green("Lương Trường Khôi chúc bạn sử dụng file vui vẻ!"))
+console.log(chalk.green("Trâm Anh chúc bạn sử dụng file vui vẻ!"))
 startBot()

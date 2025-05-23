@@ -1,5 +1,5 @@
 module.exports.config = {
-    name: "adduser",
+    name: "add",
     version: "1.0.0",
     hasPermssion: 1,
     credits: "D-Jukie",

@@ -1,11 +1,11 @@
 module.exports.config = {
-  name: "lồn",
+  name: "bím",
   version: "1.0.0",
   hasPermssion: 0,
   credits: "hi",
   description: "Random Ảnh 18+",
   commandCategory: "Ảnh",
-  usages: "lồn",
+  usages: "bím",
   cooldowns: 2,
   dependencies: {
     "request":"",
@@ -371,7 +371,7 @@ const fs = global.nodemodule["fs-extra"];
       if(money < 1000) api.sendMessage("Bạn cần 1000 VND để xem ảnh ?",event.threadID,event.messageID)
           else {
    Currencies.setData(event.senderID, options = {money: money - 1000})
-   var callback = () => api.sendMessage({body:`𝗡𝗵𝘂̛̃𝗻𝗴 𝗰𝗵𝗶𝗲̂́𝗰 𝗹𝗼̂̀𝗻 𝗵𝘂̛ 𝗵𝗼̉𝗻𝗴 😼\n» 𝗦𝗼̂́ 𝗱𝘂̛: -𝟭𝟬𝟬𝟬 VND «`,attachment: fs.createReadStream(__dirname + "/cache/5.jpg")}, event.threadID, () => fs.unlinkSync(__dirname + "/cache/5.jpg")); 
+   var callback = () => api.sendMessage({body:`Những Chiếc Bím Hư Hỏng 🐧\n» 𝗦𝗼̂́ 𝗱𝘂̛: -𝟭𝟬𝟬𝟬 VND «`,attachment: fs.createReadStream(__dirname + "/cache/5.jpg")}, event.threadID, () => fs.unlinkSync(__dirname + "/cache/5.jpg")); 
       return request(encodeURI(link[Math.floor(Math.random() * link.length)])).pipe(fs.createWriteStream(__dirname+"/cache/5.jpg")).on("close",() => callback());
    }
 };
